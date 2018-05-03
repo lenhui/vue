@@ -1,0 +1,235 @@
+.content{
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+}
+header{
+	width: 100%;
+	border-bottom: 3px solid red;
+}
+header .content{
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+	margin-top: 25px;
+}
+/*头部logo部分*/
+header .content .logo{
+	display: block;
+	float: left;
+	width: 35%;
+}
+header .content .logo img{
+	width: 100%;
+}
+header .content span{
+	width: 60%;
+	float: right;
+}
+header .content span a:hover{
+	text-decoration: underline;
+}
+/*主体部分开始*/
+main .content{
+	/*overflow: hidden;*/
+	width: 90%;
+	margin:30px auto;
+}
+main .content a{
+	display: inline-block;
+	width: 100%;
+}
+main .content a img{
+	width: 100%;
+}
+/*主体右边部分*/
+main .content .right{
+	width: 100%;
+	background: #F5F5F5;
+	float: right;
+	/*margin-top: 0px;*/
+}
+/*主体右边标题部分*/
+main .content .right .title,form{
+	width: 90%;
+	margin:20px auto;
+}
+/*主体右边表单部分*/
+main .content .right form{
+	margin-top: 8px;
+}
+main .content .right .title b{
+	width: 30%;
+	font-size: 15px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+main .content .right .title span{
+	width: 70%;
+	font-size: 10px;
+	float: right;
+	/*text-align:center;*/
+}
+main .content .right .title span a{
+	display: inline;
+	color:#f00;
+}
+main .content .right .title span a:hover{
+	text-decoration:underline;
+}
+main .content .right form{
+	color:#666;
+	font-size: 14px;
+}
+main .content .right form a{
+	display: inline-block;
+	color:#f00;
+}
+main .content .right form a:hover{
+	text-decoration:underline;
+}
+main .content .right form span{
+	float: left;
+	margin-top: 8px;
+}
+main .content .right form input{
+	margin-top: 8px;
+	display: block;
+    width: 165px;
+    height: 16px;
+    padding: 5px 0 5px 5px;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    float: left;
+}
+main .content .right form .last{
+	width: 80px;
+	background: red;
+	color:#fff;
+	padding:10px 10px 25px 10px;
+}
+/*右边账号登录部分*/
+main .content .right .account{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 30px;
+	padding-bottom: 15%;
+}
+main .content .right .account h5{
+	font-weight: 400;
+	color:#666;
+	font-size: 13px;
+}
+/*账号登录的方式*/
+main .content .right .method{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+main .content .right .method .al{
+	margin-top:10px;
+	display: inline-block;
+    width: 73px;
+    height: 19px;
+    vertical-align: middle;
+    color: #999;
+}
+/*支付宝*/
+main .content .right .method .alipay{
+	background: url(http://mbbimg.mbaobao.com/static/pcweb//mod/page/login/3.0.0/img/login_single_page.png) no-repeat 0 -42px;
+}
+/*QQ*/
+main .content .right .method .qq{
+	width: 22px;
+    padding: 5px 0 0 20px;
+    background: url(http://mbbimg.mbaobao.com/static/pcweb//mod/page/login/3.0.0/img/qq.png) no-repeat 2px 3px;
+    background-size: 14px 14px;
+}
+/*新浪微博*/
+main .content .right .method .sina{
+	width: 52px;
+    padding: 0 0 0 20px;
+    background: url(http://mbbimg.mbaobao.com/static/pcweb//mod/page/login/3.0.0/img/login_single_page.png) no-repeat 0 -78px;
+}
+/*中国移动*/
+main .content .right .method .phone{
+	width: 50px;
+    padding: 0 0 0 15px;
+    /*margin: 0 2px;*/
+    background: url(http://mbbimg.mbaobao.com/static/pcweb//mod/page/login/3.0.0/img/login_single_page.png) no-repeat 0 -110px;
+}
+/*微信*/
+main .content .right .method .Wechat{
+	width: 35px;
+    /*margin: 0 3px;*/
+    padding: 0 0 0 18px;
+    background: url(http://mbbimg.mbaobao.com/static/pcweb//mod/page/login/3.0.0/img/login_single_page.png) no-repeat 0 -208px;
+}
+/*主体部分结束*/
+/*底部开始*/
+footer{
+	margin-top: 30px;
+}
+footer .content{
+	width: 90%;
+	margin:0 auto;
+}
+footer .content p{
+	width: 95%;
+	margin:0 auto;
+	color: #666;
+}
+/*底部结束*/
+/*媒体查询*/
+@media (max-width:768px) {
+	header .content span{
+		/*width: 60%;*/
+		/*margin:0 auto;*/
+	}
+	
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width:768px) {
+	header,main,footer{
+		width: 65%;
+		margin:0 auto;
+	}
+	header .content span{
+		width: 35%;
+		height: 50px;
+		line-height: 50px;
+		font-size: 10px;
+		float: right;
+	}
+	main .content a{
+		width: 50%;
+	}
+	main .content .right{
+		width: 50%;
+	}
+	main .content .right .title b{
+		width: 30%;
+	}
+	main .content .right .title span{
+		width: 70%;
+	}
+	main .content .right form a{
+	display:block;
+	color:#f00;
+	}
+	main .content .right form .last{
+		margin-top: -10px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: @screen-md-min) {
+	header{
+		width: 40%;
+		margin:0 auto;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: @screen-lg-min) { ... }

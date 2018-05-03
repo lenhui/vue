@@ -1,0 +1,513 @@
+/*头部开始*/
+header{
+	width: 100%;
+}
+header .content{
+	width: 100%;
+	margin:0 auto;
+	background: #F7F7F7;
+	box-sizing: border-box;
+	border:1px solid #eee;
+}
+header .box{
+	width: 90%;
+	margin:0 auto;
+}
+header .content .title{
+	width: 100%;
+	margin:0 auto;
+	text-align: left;
+	padding:5px 10px;
+	height:30px;
+	line-height: 30px;
+}
+header .content .title a{
+	display: inline-block;
+}
+header .content .title .order{
+	margin-left:5px;
+	color:#B92226;
+}
+header .content .title .wechat .weixin{
+	display: none;
+}
+/*搜索框*/
+header .list{
+	width: 90%;
+	margin:0 auto; 
+}
+header .list .pic{
+	height: 30px;
+	line-height: 30px;
+}
+header .list .pic img{
+	width: 20%;
+	border-radius:30%;
+	float: left;
+}
+header .list .pic .pretty{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+header .list .pic .star i{
+	width: 12px;
+    height: 15px;
+    background: url(https://s10.mogucdn.com/p1/160908/idid_ifrggnjwmi3gimdfmezdambqmeyde_18x38.png) 0 -12px no-repeat;
+    background-size: 13px 26px;
+    display: inline-block;
+}
+header .list .pic .det{
+	margin-top: -10px;
+}
+header .list .pic span i{
+	color:#f07;
+}
+header .sear{
+	text-align: left;
+	width: 90%;
+}
+header .sear .search{
+	width: 50%;
+	border:2px solid #f07;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+}
+header .sear .shop{
+	font-size: 0.9vw;
+	background: #f07;
+	color:#fff;
+	width: 20%;
+	height: 30px;
+	line-height: 30px;
+	border-radius:7px;
+	margin-top: 2px;
+}
+/*搜索框结束*/
+header .test{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 20px;
+	/*text-align: left;	*/
+	
+}
+header .test img{
+	border-top: 2px solid #eee;
+	width: 100%;
+}
+/*导航栏开始*/
+header .nav{
+	width: 100%;
+	background: #000;
+	opacity: 0.7;
+}
+header .nav .list{
+	width: 90%;
+	margin-top: 0 auto;
+	display: flex;
+	justify-content: center;	
+}
+header .nav .list li{
+	/*display: block;*/
+	/*float: left;*/
+}
+header .nav .list>li a{
+	display: block;
+	color:#fff;
+	padding:5px 5px;
+	font-size: 0.8vw;
+	border-right: 1px solid #202020;
+}
+header .nav .list>li .Leisure{
+	display: none;
+}
+header .nav .list .commodity{
+	position: relative;
+}
+header .nav .list .menu{
+	position: absolute;
+	top:20;
+	left:0;
+	display: none;
+	background: #000;
+	opacity: 0.7;
+}
+header .nav .list .menu li a{
+	/*margin-top: -10px;*/
+	padding:5px 20px;
+	font-size: 0.8vw;
+}
+/*导航栏结束*/
+/*头部结束*/
+/*主体部分开始*/
+main{
+	margin-top: 20px;
+}
+main .content{
+	width: 90%;
+	margin:0 auto;
+}
+/*左边开始*/
+main .content .left{
+	width: 30%;
+	float:left;
+}
+main .content .left img{
+	width: 100%;
+}
+/*左边结束*/
+/*中间开始*/
+main .content .middle{
+	width: 48%;
+	float: left;
+	margin-left: 2%;
+}
+main .content .middle .title b{
+	font-size: 1.7vw;
+}
+/*价格部分*/
+main .content .middle .price{
+	width: 100%;
+	background: #F6F6F6;
+	margin-top:10px;
+}
+main .content .middle .price .mod{
+	width: 95%;
+	margin:0 auto;
+	padding-bottom: 10px;
+	padding-top:10px;
+}
+main .content .middle .price p{
+	margin-top:5px;
+}
+main .content .middle .price .grey{
+	color:#999;
+	font-size: 12px;
+}
+main .content .middle .price .grey s{
+	margin-left: 20px;
+}
+main .content .middle .price .red{
+	color:red;
+}
+main .content .middle .price .red span{
+	font-size: 20px;
+	margin-left: 20px;
+}
+main .content .middle .price .red .sum{
+	display: none;
+	float: right;
+}
+main .content .middle .price .red i{
+	/*margin-left:10px;*/
+}
+main .content .middle .price .one{
+	color:#f57;
+	border:1px solid #f57;
+	margin-left: 8px;
+	padding:3px;
+}
+main .content .middle .price .two{
+	background: #f57;
+	padding:4px;
+	color:#fff;
+	margin-left: -3px;
+}
+main .content .middle .price .Preferential{
+	display: none;
+}
+main .content .middle .size{
+	width: 95%;
+	margin:0 auto;
+}
+main .content .middle .size .con,.color{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+main .content .middle .size .span{
+	
+	text-align: center;
+}
+main .content .middle .size .Contact{
+	display: inline-block;
+	width: 85px;
+    height: 24px;
+    background: url(https://s10.mogucdn.com/pic/140815/sp1ku_ieygin3dgeydoztbmiytambqmeyde_16x17.gif) 50% no-repeat;
+}
+main .content .middle .size .color span:not(.cor){
+	width:15%;
+	text-align: center;
+}
+main .content .middle .size .color span img{
+	width: 80%;
+}
+main .content .middle .size .type{
+	margin-top: 30px;
+
+}
+main .content .middle .size .type a{
+	border:1px solid #999;
+	padding:8px;
+	margin-left:10px;
+	font-weight: 600;
+}
+main .content .middle .size .all{
+	display: none;
+}
+main .content .middle .size .num{
+	margin-top: 30px;
+}
+main .content .middle .size .num a{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #999;
+}
+main .content .middle .size .num .reduce,.add{
+	background: #f07;
+}
+main .content .middle .size .num .other{
+	margin-left: 30px;
+}
+main .content .middle .size .fast{
+	margin-top:30px;
+}
+main .content .middle .size .fast a{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	background: #f07;
+	font-size: 20px;
+}
+main .content .middle .size .fast span{
+	margin-left: 20px;
+}
+main .content .middle .size .share{
+	margin-top:20px;
+}
+main .content .middle .size .share .first{
+	display: inline-block;
+	border:1px solid #999;
+	border-radius: 20px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0.7;
+}
+main .content .middle .size .share .first i{
+	color:#f07;
+}
+main .content .middle .size .Service{
+	margin-top:20px;
+}
+main .content .middle .size .Service span{
+	margin-left: 15px;
+}
+main .content .middle .size .Service img{
+	width: 4%;
+}
+main .content .middle .size .Pay{
+	margin-top:30px;
+}
+main .content .middle .size .Pay .pic{
+	background-image: url(https://s10.mogucdn.com/p2/170122/117603130_6a8jgjh899bh5jd6hcia3ehhj0113_221x704.png);
+    background-position: -10px -295px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: inline-block;
+    width: 131px;
+    height: 20px;
+}
+/*中间结束*/
+/*右边开始*/
+main .content .right{
+	margin-left: 10%;
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+main .content .right .cont img{
+	width: 80%;
+	margin:0 auto;
+}
+main .content .right .title{
+	color:#999;
+	font-size: 1.5vw;
+	margin-bottom: 10px;
+}
+main .content .right .last{
+	display: none;
+}
+/*右边结束*/
+/*主体部分结束*/
+/*底部开始*/
+footer p{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+footer .pic{
+	display: flex;
+	margin-top:20px;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	width: 80%;
+	margin:0 auto;
+}
+footer .pic a{
+	width: 100%;
+	display: block;
+	margin-top:5px;
+}
+footer .pic img{
+	width: 100%;
+}
+/*底部结束*/
+ /*小屏幕（平板，大于等于 768px） */
+@media (min-width:768px) {
+	/*标题部分*/
+	header .content .title{
+		padding-bottom: 20px;
+		text-align: right;
+		height: 20px;
+		line-height: 20px;
+	}
+	/*公告部分*/
+	header .content .title .voice{
+		/*display: block;*/
+		margin-left: 5px;
+		background: url(../images/details/notice.png) no-repeat scroll 0px 0px;
+    	width: 55px;
+    	padding-left: 26px;
+    	text-align: left;
+    	color:#B92226;
+	}
+	/*微信部分*/
+	header .content .title .wechat{
+	background: url(../images/details/w1.jpg) no-repeat left 3px;
+	width: 20px;
+    height: 21px;
+    position: relative;
+	}
+	header .content .title .wechat .weixin{
+		position: absolute;
+		top:38px;
+		right:0;
+		display: none;
+		z-index: 10;
+	}
+	header .content .title .wechat:hover .weixin{
+		display: block;
+	}
+	/*新浪微博*/
+	header .content .title .sina{
+	width: 20px;
+    height: 20px;
+    /*float: right;*/
+	background: url(../images/details/w2.jpg) no-repeat left 3px;
+
+	}
+	
+	/*搜索框*/
+	header .list{
+		/*width: 90%;*/
+		margin-top: 10px;
+		/*margin:0 auto;*/
+	}
+	header .list .pic{
+		text-align: left;
+		width: 40%;
+		float: left;
+	}
+	header .list .pic img{
+		width: 10%;
+		border-radius: 50%;
+	}
+	header .list .sear{
+		float: right;
+		width: 40%;
+	}
+	header .sear .search{
+		width: 60%;
+	}
+	header .sear .shop{
+	width: 15%;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 12px;
+	margin-top: 0px;
+	}
+
+header .test{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 20px;	
+	
+}
+header .test img{
+	border-top: 2px solid #eee;
+}
+/*导航栏开始*/
+header .nav{
+	width: 100%;
+	background: #000;
+	opacity: 0.7;
+}
+header .nav .list li{
+	/*display: block;*/
+	/*float: left;*/
+}
+header .nav .list li a{
+	display: block;
+	color:#fff;
+	padding:10px 20px;
+	font-size: 0.8vw;
+}
+header .nav .list li .Leisure{
+	display:block;
+}
+header .nav .list .commodity:hover .menu{
+	display: block;
+}
+/*导航栏结束*/
+main .content .middle .price .red span{
+	font-size:30px;
+}
+main .content .middle .price .red .sum{
+	display:block;
+	float: right;
+}
+main .content .middle .price .Preferential{
+	display: block;
+}
+main .content .middle .size .Contact{
+	margin-left: 20px;
+}
+main .content .right .last{
+	display: block;
+}
+main .content .middle .size .all{
+	display: block;
+}
+footer .pic{
+		width: 50%;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: @screen-md-min) {
+	
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: @screen-lg-min) { ... }

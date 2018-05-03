@@ -1,0 +1,267 @@
+.content{
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+}
+header{
+	width: 100%;
+	border-bottom: 3px solid red;
+}
+header .content{
+	overflow: hidden;
+	width: 90%;
+	margin:0 auto;
+	margin-top: 25px;
+}
+/*头部logo部分*/
+header .content .logo{
+	display: block;
+	float: left;
+	width: 25%;
+}
+header .content .logo img{
+	width: 100%;
+}
+header .content span{
+	width: 75%;
+	float: right;
+}
+header .content a{
+	color:#a10000;
+}
+/*头部结束*/
+/*主体部分开始*/
+main .content{
+	margin-top: 25px;
+}
+main .content .process{
+	width: 100%;
+}
+/*购物流程开始*/
+main .content .process span{
+	float: left;                                                                 
+	font-size: 1.2vw;
+	color:#000;
+	margin-right: 3px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	background: #EEEEEE;
+	padding:5px 8px;
+}
+/*购物流程结束*/
+/*我的购物车*/
+main .content p .car{
+	display:inline-block;
+	width: 38px;
+	height:30px;
+	background: url(../images/car/1.gif) no-repeat -462px 0;
+	float: left;
+}
+main .content p b{
+	display: inline-block;
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+}
+/*温馨提示*/
+main .content .other{
+	color:#656565;
+	margin-top:5px;
+}
+main .content .other .prompt{
+	color:#a10000;
+}
+/*表格*/
+main .content .tab{
+	border:1px solid  #DCDFE4;
+	margin-top: 20px;
+}
+main .content .tab1{
+	border-collapse: collapse;
+}
+main .content .tab1{
+	width: 100%;
+	text-align: center;
+}
+main .content .tab1 input{
+	text-align: center;
+	width: 20%;
+}
+main .content .tab1 a{
+	color:#B90808;
+}
+main .content .tab1 tr{
+	margin-top: 20px;
+}
+/*表格结束*/
+/*总计*/
+main .content .car-summary{
+	margin-top: 20px;
+	background: #FFFEF5;
+}
+main .content .car-summary input{
+	margin-top:5px;
+}
+main .content .car-summary a{
+	margin-right: 30px;
+	margin-top:5px;
+}
+main .content .car-summary .chj{
+	width: 95%;
+	margin:0 auto;
+	padding-bottom:30px;
+	padding-top: 30px;
+}
+main .content .car-summary .Preferential{
+	display: block;
+	color:#a10000;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+main .content .car-summary span i{
+	color:#a10000;
+}
+/*总计最后一行*/
+main .content .car-summary .money{
+	height: 20px;
+	line-height: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+main .content .car-summary .money b:first-child{
+	font-weight: 400;
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+main .content .car-summary .money b:nth-child(2){
+	color:#a10000;
+	font-size: 20px;
+}
+main .content .car-summary .mo{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+}
+main .content .car-summary .mo i{
+	display:inline-block;
+	text-align: center;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-right: 10px;
+	/*float:left;*/
+}
+main .content .car-summary .mo .go{
+	width: 40%;
+	width:115px;
+	height: 33px;
+	color:#666;
+	font-size:15px;
+	line-height: 33px;
+	background: url(../images/car/1.gif) no-repeat -165px 0;
+}
+main .content .car-summary .mo .sum{
+	width: 60%;
+	width:150px;
+	height: 48px;
+	color:#fff;
+	font-size:18px;
+	padding-left: 10px;
+	line-height: 48px;
+	background: url(../images/car/1.gif) no-repeat 0 0;
+}
+/*总计结束*/
+/*主体部分结束*/
+/*底部开始*/
+footer p{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+footer .pic{
+	display: flex;
+	margin-top:20px;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	width: 80%;
+	margin:0 auto;
+}
+footer .pic a{
+	width: 100%;
+	display: block;
+	margin-top:5px;
+}
+footer .pic img{
+	width: 100%;
+}
+/*底部结束*/
+/*媒体查询*/
+@media (max-width:768px) {
+	header .content span{
+		/*width: 60%;*/
+		/*margin:0 auto;*/
+	}
+	
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width:768px) {
+	header{
+		width: 75%;
+		margin:0 auto;
+	}
+	header .content span{
+		width: 35%;
+		height: 50px;
+		line-height: 50px;
+		font-size: 10px;
+		float: right;
+	}
+	/*主体部分*/
+	main{
+		width: 80%;
+		margin:0 auto;
+	}
+	main .content a{
+		width: 50%;
+	}
+	main .content .right{
+		width: 50%;
+	}
+	/*总计 继续购物*/
+	main .content .car-summary .mo .go{
+		margin-left: 50%;
+	}
+	/*表格*/
+	main .content .tab1 input{
+	text-align: center;
+	width: 20%;
+	}
+	/*表格+*/
+	main .content .tab1 .add{
+		display: inline-block;
+		width: 20%;
+		background: #D5D5D5;
+		/*padding:3px 5px;*/
+		border:1px solid #eee;
+	}
+	/*表格-*/
+	main .content .tab1 .reduce{
+		display: inline-block;
+		width: 20%;
+		background: #D5D5D5;
+		/*padding:3px 5px;*/
+		border:1px solid #eee;
+	}
+	/*表格第一行*/
+	main .content .tab1 .one{
+	height: 40px;
+	line-height: 40px;
+	border-top:1px solid #DCDFE4;
+	border-bottom: 1px solid #B7B7B7;
+	}
+/*底部图片*/
+	footer .pic{
+		width: 50%;
+	}
+}
